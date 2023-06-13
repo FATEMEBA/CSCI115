@@ -1,0 +1,7 @@
+body {
+    background-image: url(img/places.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(100deg, rgb(119, 23, 23), #c2746a, rgb(119, 23, 23) , #c2746a, rgb(119, 23, 23));
+  }

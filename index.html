@@ -1,0 +1,228 @@
+<!--Fateme 658771654-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(56, 7, 7);
+        }
+
+        ul.navbar li a:hover {
+            background-color: #111;
+        }
+
+
+        #header {
+            display: flex;
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+        }
+
+        .div-holder {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .div-holder img {
+            width: calc(50% - 50px);
+            margin-bottom: 15px;
+            border-radius: 30px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .content-part {
+            border: 1px solid rgb(128, 60, 60);
+            padding: 20px;
+            line-height: 1;
+            background: #d77676d7;
+            font-size: 16px;
+            border-radius: 60px;
+            text-align: center;
+            color: black;
+            font-weight: 300;
+        }
+
+        .land-img {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .land-img img {
+            width: 100%;
+            opacity: 0.7;
+        }
+
+        .main-content {
+            background: rgba(171, 90, 90, 0.27);
+            position: absolute;
+            z-index: 1;
+            max-width: 525px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 300;
+            left: 20px;
+            top: 30px;
+            padding: 20px;
+        }
+
+        .click {
+
+            background: #5b0c0c;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 10px;
+
+        }
+
+        a {
+            color: rgb(190, 21, 49);
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/body.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <ul class="navbar">
+                <li><a href="#action">Action</a></li>
+                <li><a href="#comedy">Comedy</a></li>
+                <li><a href="#drama">Drama</a></li>
+                <li><a href="#romance">Romance</a></li>
+                <li><a href="#scifi">Science Fiction</a></li>
+                <li><a href="#horror">Horror</a></li>
+                <li><a href="#fantasy">Fantasy</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="land-img">
+
+        <img src="img/movie genre.webp" alt="Movie Genere">
+    </div>
+
+    <section>
+
+        <a class="click" href="#end" id="top">Go to end</a>
+
+        <div>
+            <div>
+                <div class="content-part" id="action">
+                    <a href="index1.html">
+                        <h4>1.Action:</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/action-1.jpeg" alt="Die Hard">
+                    <img src="img/action-2.jpg" alt="Mission: Impossible">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part" id="comedy">
+                    <a href="index2.html">
+                        <h4>2.Comedy:</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/comedy-1.jpg" alt="Anchorman">
+                    <img src="img/comedy-2.jpg" alt="Bridesmaids">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part" id="drama">
+                    <a href="index3.html">
+                        <h4>3.Drama:</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/drama-1.jpeg" alt="The shawshank Redemption">
+                    <img src="img/drama-2.jpg" alt="Schindler's List">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part" id="romance">
+                    <a href="index4.html">
+                        <h4>4.Romance:</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/romance-1.png" alt="Titanic">
+                    <img src="img/romance-2.png" alt="Romeo + Juliet">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part" id="scifi">
+                    <a href="index5.html">
+                        <h4>5.Science Fiction:</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/scifi-1.png" alt="Blade Runner">
+                    <img src="img/scifi-2.jpg" alt="The Matrix">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part" id="horror">
+                    <a href="index6.html">
+                        <h4>6.Horror:</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/horror-1.jpeg" alt="Psycho">
+                    <img src="img/horror-2.jpeg" alt="The Exorcist">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part" id="fantasy">
+                    <a href="index7.html">
+                        <h4>7.Fantasy</h4>
+                    </a>
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/fantasy-1.jpg" alt="The Lord of the Rings">
+                    <img src="img/fantasy-2.jpg" alt="Harry Potter">
+                </div>
+            </div>
+        </div>
+        <a class="click" href="#top" id="end">Go to top</a>
+    </section>
+</body>
+
+</html>
